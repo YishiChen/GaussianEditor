@@ -91,7 +91,8 @@ def training(
     prompt_utils = prompt_processor()
     prompt_processor_1024 = StableDiffusionPromptProcessor(
         {
-            "pretrained_model_name_or_path": "stabilityai/stable-diffusion-2-1-base",
+            #"pretrained_model_name_or_path": "stabilityai/stable-diffusion-2-1-base",
+            "pretrained_model_name_or_path": "Manojb/stable-diffusion-2-1-base",
             "prompt": prompt,
         }
     )
